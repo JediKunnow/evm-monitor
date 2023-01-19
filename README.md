@@ -1,9 +1,7 @@
 # evm-monitor
 #### <code>evm-monitor</code> is a framework that allows to easily code event-based programs listening an arbitrary EVM compatible blockchain.
-#### It can be used to perform real time monitoring, history searchs, information gathering and many more cases...
-#### A lot of my own scripts are builded on top on this framework. I've put a lot of work into this, a twitter follow would be appreciated.
-#### I won't add tons of docs just because i've no time for this at all, unfortunately, but the whole project is made with typescript, so it'll be easier for you to understand it.
-
+#### It can be used to perform real time monitoring, history searchs, information gathering and many more cases.
+#### I won't add tons of docs just because i've no time for this at all - unfortunately - but i'll try my best.
 
 # Build & Start 
 #### <code>npm run build</code> for building a production build then <code>node dist/main.js</code> to start the program.
