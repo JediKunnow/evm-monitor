@@ -9,7 +9,7 @@ const config = {
         password: "",
         database: ""
     },
-    network: 'polygon',
+    network: 'bsc',
     networks: require('./networks').networks
 }
 

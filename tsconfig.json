@@ -25,6 +25,7 @@
         "src/interfaces/*.ts",
         "src/migrations/*.ts",
         "config/*.js",
+        "src/examples/*.ts"
     ],
     "exclude": [
       "src/class/WebLookup.ts",
