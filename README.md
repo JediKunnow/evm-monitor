@@ -30,6 +30,7 @@ const config = {
 ## Just a few things before you dive into the code
 
 ### Scanner
+```src/class/base/Scanner.ts```
 ##### This is the entry point of the whole application.
 ##### Its constructor signature is:
 ```
@@ -46,6 +47,7 @@ constructor({safe, db, network, log, filterRules} :{
 ##### The FnScan function will be called on each tx that the chain will validate.
  
 ### ContractFilter
+```src/class/base/ContractFilter.ts```
 ##### Decision Tree implementation to recognize a contract type. 
 ##### Its constructor signature is:
 ```
@@ -82,6 +84,7 @@ static filterRules: FilterRulesItem = {
 ##### Note that also the <code>FilterRulesItem</code> s are sorted:  the (i+1)-th rule is considered only if the i-th rule exited on a false return.
 
 ### SafeWeb3
+```src/class/base/SafeWeb3.ts```
 ##### It handles the connection with the blockchain using wss, and errors too.
 ##### Its constructor signature is:
 ```
@@ -95,6 +98,7 @@ constructor({
  ```
 
 ### Entity
+```src/class/base/Entity.ts```
 ##### It is the base class to represent entities. 
 ##### As example ERC721, ERC1155, ERC20 are entities. New entities can be created extending the base class Entity. 
 ##### Its constructor signature is:
@@ -110,4 +114,4 @@ constructor({
     required: Array < keyof T > ,
     table: string
 })
- ```
+```
