@@ -3,8 +3,8 @@
 #### It can be used to perform real time monitoring, history searchs, information gathering and many more cases.
 #### I won't add tons of docs just because i've no time for this at all - unfortunately - but i'll try my best.
 
-# Build & Start 
-#### <code>npm run build</code> for building a production build then <code>node dist/main.js</code> to start the program.
+# Build 
+#### <code>npm run build</code> for building a production build.
 
 #### Project settings are located in config/config.js:
 
@@ -28,6 +28,12 @@ const config = {
 </code>
 
 ## Just a few things before you dive into the code
+
+### Migrations
+```src/migrations/*```
+##### Migrations are useful when working with databases. Extending a Migration object you can easily create, delete and update tables.
+##### Take a look to ```src/migrations/CreateNetworkTable.ts``` to understand them deeply.
+##### Running the command <code>npm run migrate</code> will execute all the migrations objects contained in ```src/migrations```.
 
 ### Scanner
 ```src/class/base/Scanner.ts```

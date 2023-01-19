@@ -1,6 +1,6 @@
 import { Migration } from '../class/base';
 
-export default class CreateNetworkTable extends Migration {
+export default class CreateFactoryTable extends Migration {
 
     order: number =  4;
     name: string = "CreateFactoryTable";
