@@ -1,1 +1,0 @@
-{"version":3,"file":"CreateTokenTable.js","sourceRoot":"","sources":["../../src/migrations/CreateTokenTable.ts"],"names":[],"mappings":";;AAAA,wCAA0C;AAE1C,MAAqB,gBAAiB,SAAQ,gBAAS;IAAvD;;QAEI,UAAK,GAAW,CAAC,CAAC;QAClB,SAAI,GAAW,kBAAkB,CAAC;IAoBtC,CAAC;IAlBG,IAAI,KAAK;QACL,OAAO;;;;;;;;;;;;;;;wCAeyB,CAAA;IACpC,CAAC;CACJ;AAvBD,mCAuBC"}
